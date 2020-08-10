@@ -1,0 +1,15 @@
+.main__img {
+    border-radius: 10rem;
+    width: 10rem;
+    display:block;
+    margin:auto;
+
+}    
+
+@media (min-width: 768px) {
+    .main__img{
+        border-radius: 14rem;
+        width: 14rem; 
+        
+    }
+}

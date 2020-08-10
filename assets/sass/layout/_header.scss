@@ -1,0 +1,41 @@
+.nav {
+        display: inline-block;
+        width: 60%;
+        text-align: right;
+        margin-left: auto;
+    }
+
+.navigation {
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+
+.logo{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: $ubuntu;
+}
+
+ul{
+    display: inline-flex;
+
+}
+
+
+li {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    padding-left: 2em;
+}
+
+.input-menu {
+    border-color: $light-gray;
+    border-width: 1px;
+    font-size: $small;
+}

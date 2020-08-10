@@ -1,0 +1,10 @@
+/* Reset*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+//Previene que la imagen sobrepase el 100% de ancho
+img {
+    max-width: 100%;
+}

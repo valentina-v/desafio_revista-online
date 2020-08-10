@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $ubuntu;
+    font-family: $roboto;
+}
+.contenedor {
+    width: 60%;
+    margin: 0 auto;
+    background-color: $light-gray;
+    padding: 0 2em 0 2em;
+}
+
+
+h1{
+    font-size: $xx-large;
+    font-family: $ubuntu;
+
+}
+
+h2{
+    font-size: $x-large;
+    font-family: $ubuntu;
+
+}
+
+h3{
+    font-size: $large;
+    font-family: $ubuntu;
+
+}
+
+h4{
+    font-size: $medium;
+    font-family: $ubuntu;
+    padding-bottom: 1em;
+}
+
+p{
+    font-size: $small;
+    font-family: $roboto;
+    padding-top: 1em;
+    
+}
